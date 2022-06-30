@@ -7,6 +7,8 @@
     display: flex;
     align-items: center;
     padding: 20px;
+    background-color: black;
+    padding: 60px 0 20px;
 }
 nav {
     flex: 1;
@@ -22,10 +24,10 @@ nav ul li {
 }
 a{
     text-decoration: none;
-    color: #444444;
+    color: white;
 }
 p{
-    color: #444444;
+    color: black;
 }
 .container{
     max-width: 1200px;
@@ -51,10 +53,11 @@ padding: 50px 0;
 font-size: 50px;
 line-height: 60px;
 margin: 25px 0;
+color: black;
 }
 .btn{
     display: inline-block;
-    background-color: rgb(56, 50, 41);
+    background-color: black;
     color: white;
     padding: 10px 25px;
     margin: 25px 0;
@@ -65,7 +68,7 @@ margin: 25px 0;
     background:brown;
 }
 .header {
-    background: radial-gradient(tan, white);
+    background: white;
 }
 .header .row{
     margin-top: 60px;
@@ -73,10 +76,15 @@ margin: 25px 0;
 .categories{
     margin: 60px 0;
 }
-col-3{
+.col-3{
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 25px;
+}
+h2{
+    color: black;
+    text-align: center;
+    padding-bottom: 25px;
 }
 .col-3 img{
     width: 100%;
@@ -86,13 +94,44 @@ col-3{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-col-4{
+.col-4{
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
-    margin-bottom: 50px;
 }
-col-4 img{
-    width: 10%;
+.col-4 img{
+    width: 100%;
 }
+.footer{
+    background: black;
+    color:  white;
+    padding: 60px 0 20px;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 100;
+    margin-bottom: 20px;
+    width: 180px;
+}
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: white;
+        width: 100px;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+   
