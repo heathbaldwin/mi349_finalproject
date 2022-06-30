@@ -47,3 +47,26 @@ p{
 max-width: 100%;
 padding: 50px 0;
 }
+.col-2 h1{
+font-size: 50px;
+line-height: 60px;
+margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background-color: bisque;
+    color: white;
+    padding: 10px 25px;
+    margin: 25px 0;
+    border-radius: 20px;
+    transition: background 0.6;
+}
+.btn:hover{
+    background:brown;
+}
+.header {
+    background: radial-gradient(tan, white);
+}
+.header .row{
+    margin-top: 60px;
+}
