@@ -7,8 +7,9 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    background-color: black;
+    background: rgb(30, 30, 52);
     padding: 60px 0 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 nav {
     flex: 1;
@@ -25,9 +26,11 @@ nav ul li {
 a{
     text-decoration: none;
     color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 p{
     color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
     max-width: 1200px;
@@ -54,6 +57,7 @@ font-size: 50px;
 line-height: 60px;
 margin: 25px 0;
 color: black;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .btn{
     display: inline-block;
@@ -85,6 +89,7 @@ h2{
     color: black;
     text-align: center;
     padding-bottom: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .col-3 img{
     width: 100%;
@@ -106,9 +111,10 @@ h2{
     width: 100%;
 }
 .footer{
-    background: black;
+    background: rgb(30, 30, 52);
     color:  white;
     padding: 60px 0 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .footer-col-2{
     flex: 1;
